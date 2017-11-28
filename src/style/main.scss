@@ -1,10 +1,30 @@
-/*
-* Third Party
-*/
-@import "../../bower_components/normalize.css/normalize.css";
+/* --- Libs styles ---*/
+@import "../../bower_components/materialize/dist/css/materialize.min.css";
 
-
-/*
-* Custom
-*/
+/* --- Global styles ---*/
+@import "partials/colors";
 @import "partials/variable";
+@import "partials/mixins";
+@import "partials/sprite";
+@import "partials/fonts";
+@import "partials/taxonomie";
+@import "partials/scaffolding";
+
+/* --- Global styles ---*/
+
+
+/* --- temporary styles ---*/
+@import "outlines";  //
+/* --- end temporary styles ---*/
+
+
+/* --- views styles ---*/
+@import "views/header";
+@import "views/footer";
+/* --- end views styles ---*/
+
+
+/* --- pages styles ---*/
+
+/* --- end pages styles ---*/
+

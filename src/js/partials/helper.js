@@ -1,3 +1,1 @@
-window.log = function(param){
-    console.log(param);
-};
+console.log("common.js");
